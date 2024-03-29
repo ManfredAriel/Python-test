@@ -13,5 +13,5 @@ jobs:
 
     - name: Run Lua tests
       run: |
-        lua5.3 -e 'local variable1 = "Hola"; assert(variable1 == "Hola", "Variable1 no se inicializó correctamente")'
+        lua5.3 -e 'local variable1 = "Hola2"; assert(variable1 == "Hola", "Variable1 no se inicializó correctamente")'
         lua5.3 -e 'local variable2 = 42; assert(variable2 == 42, "Variable2 no se inicializó correctamente")'
